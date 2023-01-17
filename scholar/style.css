@@ -80,3 +80,16 @@ li {
     height: 48px;
     width: 48px;
 }
+
+@media (max-width:799px){
+.cardlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    width: 250px;
+    height: auto;
+    padding: 0px;
+}    
+}
